@@ -1,0 +1,11 @@
+{
+    "name": "Ubuntu 20.04 Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "echo 'Welcome to your Ubuntu 20.04 container!'",
+    "remoteUser": "root"
+}
